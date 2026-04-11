@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            /*Herkes Github Hesabı açsın*/
             /* Methods-Function 
              * Methodlar  yazılımcılar tarafından geliştirilen ve diğeğr yazılımcıların kullanımına sunulan hazır kod yapılarıdır.
              * Metoda bir isim verilir ve o isim altında bir iş yapan kod bloğu yazılır ve yazılımcı o işi yapmak için methodu çağırması yeterlidir.
