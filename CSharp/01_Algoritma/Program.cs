@@ -3,7 +3,8 @@
     internal class Program//Binamız
     {
         static void Main(string[] args)//Evimiz 
-        {//{bu scope alanının içerisinde kod yazabiliriz.}
+        {//{bu scope alanının içerisinde kod yazabiliriz.}\
+            //Algoritma: Bir problemi çözmek için izlenen yol, yöntem, tekniğe algoritma denir. 
 
             Console.WriteLine("10");//Konsol tarafında Ekrana çıktı almak için kullandığımız yapı
             //" " çift tırnaklar metinsel "" olarak bulunan her yapı metinsel olarak işlenir içerisinde sayı da olsa 
