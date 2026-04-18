@@ -20,5 +20,9 @@
   <Project Path="13_OtomatProjesi/13_OtomatProjesi.csproj" Id="83a94c19-3adb-4465-b77a-350b4ebf456d" />
   <Project Path="14_Methods/14_Methods.csproj" Id="dc1f67a2-4a63-4b5b-9d37-3e391cdfd2b5" />
   <Project Path="14_Methods_2/14_Methods_2.csproj" Id="cf555e23-e318-428b-ac15-59a0d2ea80b6" />
-  <Project Path="14_Method_DegerDonduren_3/14_Method_DegerDonduren_3.csproj" Id="908b642c-680b-4efa-975f-66878b3884d0" />
+  <Project Path="15_Returns_Method/15_Returns_Method.csproj" Id="d46e6be7-4e0a-49d9-a2ff-2a31a624a4a1" />
+  <Project Path="15_Return_Methods_2/15_Returns_Methods_2.csproj" Id="5256ecd8-b567-446c-97c1-87077c7f28a6" />
+  <Project Path="16_OverLoad_Methods/16_OverLoad_Methods.csproj" Id="cd83f198-e53b-4e32-9817-7d1df95570f4" />
+  <Project Path="17_OptionalMethods/17_OptionalMethods.csproj" Id="3c8b7e90-cb23-4774-99c4-ab274e30adca" />
+  <Project Path="17_OptionalMethods_2/17_OptionalMethods_2.csproj" Id="73757075-c9b6-4918-a47f-0a69f56b858a" />
 </Solution>
