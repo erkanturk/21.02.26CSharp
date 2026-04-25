@@ -27,4 +27,8 @@
   <Project Path="17_OptionalMethods_2/17_OptionalMethods_2.csproj" Id="73757075-c9b6-4918-a47f-0a69f56b858a" />
   <Project Path="18_Params_Method/18_Params_Method.csproj" Id="7d2cf3c1-3a57-4f17-9aeb-6a29656b42da" />
   <Project Path="19_Out_Ref_Method/19_Out_Ref_Method.csproj" Id="0175d7c7-292d-4d54-b6c0-be814e35df6e" />
+  <Project Path="20_OdevCozum/20_OdevCozum.csproj" Id="bf78d7d4-f030-4dcb-9e75-40579d92bbfa" />
+  <Project Path="21_Recursive_Method/21_Recursive_Method.csproj" Id="215abdf7-f3da-455a-ada3-71ed242d3935" />
+  <Project Path="22_Math_Methods/22_Math_Methods.csproj" Id="9a5ca153-e07a-4218-88ce-aab1177e209c" />
+  <Project Path="23_String_Methodlar/23_String_Methodlar.csproj" Id="fc270ddf-5011-45ef-9007-b5e06229e22a" />
 </Solution>
