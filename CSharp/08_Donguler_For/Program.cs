@@ -116,17 +116,21 @@
             //Console.WriteLine("Ortalama:" + (toplam / sayac));
             //Console.WriteLine("Sayac toplamı:" + sayac);
 
-            for (int i = 0; i <= 10; i++)
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    if (i == 5 || i == 6)
+            //    {
+            //        continue;//5 ve 6 yı atla diğerlerini yazdır
+            //    }
+            //    if (i == 9)
+            //    {
+            //        break;//9 a gelince döngüyü sonlandır
+            //    }
+            //    Console.WriteLine(i);
+            //}
+            for (int i = 0; i <= 100; i++)
             {
-                if (i == 5 || i == 6)
-                {
-                    continue;//5 ve 6 yı atla diğerlerini yazdır
-                }
-                if (i == 9)
-                {
-                    break;//9 a gelince döngüyü sonlandır
-                }
-                Console.WriteLine(i);
+                Console.WriteLine("Erkan");
             }
             #endregion
         }

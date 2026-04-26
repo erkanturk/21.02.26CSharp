@@ -1,4 +1,6 @@
-﻿namespace _12_Array_2
+﻿using _14_Methods;
+
+namespace _12_Array_2
 {
     internal class Program
     {
@@ -87,106 +89,112 @@
 
             #endregion
             #region Random Dizi
-            //Random random = new Random();
-            //int randomSayi = random.Next(1, 21);//dizinin uzunluğu
-            //int tekToplam = 0;
-            //int ciftToplam = 0;
-            //int[] randomSayilar = new int[randomSayi];
-            //for (int i = 0; i < randomSayilar.Length; i++)
-            //{
-            //    randomSayilar[i] = random.Next(1, 50);//eleman değerleri 
+            Random random = new Random();
+            int randomSayi = random.Next(1, 21);//dizinin uzunluğu
+            int tekToplam = 0;
+            int ciftToplam = 0;
+            int[] randomSayilar = new int[randomSayi];
+            for (int i = 0; i < randomSayilar.Length; i++)
+            {
+                randomSayilar[i] = random.Next(1, 50);//eleman değerleri 
 
-            //}
-            //Console.WriteLine("*************");
+            }
+            Console.WriteLine("*************");
             //for (int i = 0; i < randomSayilar.Length; i++)
             //{
             //    Console.WriteLine(randomSayilar[i]);
             //}
-            //Console.WriteLine("*************");
-            //foreach (int sayi in randomSayilar)
-            //{
-            //    if (sayi % 2 == 0)
-            //    {
-            //        ciftToplam += sayi;
-            //    }
-            //    else
-            //    {
-            //        tekToplam += sayi;
-            //    }
-            //}
+            Etut etut = new Etut();
+            etut.DiziYazdir(randomSayilar);
+            string[] meyveler = { "elma", "armut", "muz", "çilek", "karpuz" };
+            etut.DiziYazdir(meyveler);
+            double[] doubleDizi = { 1.5, 2.3, 3.7, 4.1, 5.6 };
+            etut.DiziYazdir(doubleDizi);
+            Console.WriteLine("*************");
+            foreach (int sayi in randomSayilar)
+            {
+                if (sayi % 2 == 0)
+                {
+                    ciftToplam += sayi;
+                }
+                else
+                {
+                    tekToplam += sayi;
+                }
+            }
 
-            //Console.WriteLine("Tek toplam: " + tekToplam);
-            //Console.WriteLine("Çift toplam: " + ciftToplam);
+            Console.WriteLine("Tek toplam: " + tekToplam);
+            Console.WriteLine("Çift toplam: " + ciftToplam);
 
 
             #endregion
             #region Try Parse
-            string[] meyveler = { "elma", "armut", "muz", "çilek", "karpuz" };
-            Console.WriteLine("Bir ürün seçin");
-            int i =0;
-            foreach (string meyve in meyveler)
-            {
-                Console.WriteLine(meyve + " => " + i);
-                i++;
-            }
-            string secim = Console.ReadLine();
-            if (int.TryParse(secim, out int index))//tryparse yapısı true false değer döndürür eğer kullanıcı sayı girmişse
-                                                   //sayısal olarak index değerini arar metinsel ise metinsel olarak devam eder.
-            {
-                if (index == 0)
-                {
-                    Console.WriteLine($"{meyveler[index]} alındı");
-                }
-                else if (index == 1)
-                {
-                    Console.WriteLine($"{meyveler[index]} alındı");
-                }
-                else if (index == 2)
-                {
-                    Console.WriteLine($"{meyveler[index]} alındı");
-                }
-                else if (index == 3)
-                {
-                    Console.WriteLine($"{meyveler[index]} alındı");
-                }
-                else if (index == 4)
-                {
-                    Console.WriteLine($"{meyveler[index]} alındı");
-                }
-                else
-                {
-                    Console.WriteLine($"{meyveler[index]} alındı");
-                }
-            }
-            else
-            {
-                int index2=Array.IndexOf(meyveler, secim);//kullanıcının girdiği metinsel değerin meyveler dizisinde olup olmadığını kontrol eder
+            //string[] meyveler = { "elma", "armut", "muz", "çilek", "karpuz" };
+            //Console.WriteLine("Bir ürün seçin");
+            //int i =0;
+            //foreach (string meyve in meyveler)
+            //{
+            //    Console.WriteLine(meyve + " => " + i);
+            //    i++;
+            //}
+            //string secim = Console.ReadLine();
+            //if (int.TryParse(secim, out int index))//tryparse yapısı true false değer döndürür eğer kullanıcı sayı girmişse
+            //                                       //sayısal olarak index değerini arar metinsel ise metinsel olarak devam eder.
+            //{
+            //    if (index == 0)
+            //    {
+            //        Console.WriteLine($"{meyveler[index]} alındı");
+            //    }
+            //    else if (index == 1)
+            //    {
+            //        Console.WriteLine($"{meyveler[index]} alındı");
+            //    }
+            //    else if (index == 2)
+            //    {
+            //        Console.WriteLine($"{meyveler[index]} alındı");
+            //    }
+            //    else if (index == 3)
+            //    {
+            //        Console.WriteLine($"{meyveler[index]} alındı");
+            //    }
+            //    else if (index == 4)
+            //    {
+            //        Console.WriteLine($"{meyveler[index]} alındı");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{meyveler[index]} alındı");
+            //    }
+            //}
+            //else
+            //{
+            //    int index2=Array.IndexOf(meyveler, secim);//kullanıcının girdiği metinsel değerin meyveler dizisinde olup olmadığını kontrol eder
 
-                if (secim == "elma")
-                {
-                    Console.WriteLine($"{meyveler[index2]} alındı");
-                }
-                else if (secim == "armut")
-                {
-                    Console.WriteLine($"{meyveler[index2]} alındı");
-                }
-                else if (secim == "muz")
-                {
-                    Console.WriteLine($"{meyveler[index2]} alındı");
-                }
-                else if (secim == "çilek")
-                {
-                    Console.WriteLine($"{meyveler[index2]} alındı");
-                }
-                else if (secim == "karpuz")
-                {
-                    Console.WriteLine($"{meyveler[index2]} alındı");
-                }
-                else
-                {
-                    Console.WriteLine("Geçersiz meyve");
-                }
-            }
+            //    if (secim == "elma")
+            //    {
+            //        Console.WriteLine($"{meyveler[index2]} alındı");
+            //    }
+            //    else if (secim == "armut")
+            //    {
+            //        Console.WriteLine($"{meyveler[index2]} alındı");
+            //    }
+            //    else if (secim == "muz")
+            //    {
+            //        Console.WriteLine($"{meyveler[index2]} alındı");
+            //    }
+            //    else if (secim == "çilek")
+            //    {
+            //        Console.WriteLine($"{meyveler[index2]} alındı");
+            //    }
+            //    else if (secim == "karpuz")
+            //    {
+            //        Console.WriteLine($"{meyveler[index2]} alındı");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Geçersiz meyve");
+            //    }
+            //}
 
             #endregion
         }

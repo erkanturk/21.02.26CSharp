@@ -24,6 +24,7 @@
                 Console.WriteLine("Şanslı tahmininizi giriniz");
                 int tahmin = Convert.ToInt32(Console.ReadLine());
                 hak--;
+                Console.WriteLine(rSayi);
                 if (hak == 0)
                 {
                     Console.WriteLine("Hakkınız kalmadı random sayı: " + rSayi);
@@ -32,7 +33,14 @@
                 if (rSayi == tahmin)
                 {
                     Console.WriteLine("Tebrikler doğru tahmin:" + tahmin);
-                    break;
+                    Console.WriteLine("Devam etmek istiyor musunuz? (E/H)");
+                    string cevap = Console.ReadLine().ToUpper();
+                    if (cevap == "E")
+                    {
+                        rSayi= random.Next(1, 101);
+                        hak = 5;
+                        continue;
+                    }
                 }
                 else if (rSayi > tahmin)
                 {

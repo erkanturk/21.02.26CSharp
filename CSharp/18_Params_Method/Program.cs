@@ -18,11 +18,11 @@ namespace _18_Params_Method
             //Yaz(10,20,30);//sadece iki parametre tanımlandığı için iki değer bekliyor.
 
             //Yaz2(10);//2. parametre zorunlu değildir. değer verilmesede sorun olmaz.
-            //Yaz2(20, 2, 1, 3, 1, 2, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 3, 2, 3, 4, 4, 4, 5, 5, 1, 2, 3, 2, 1, 3, 1, 1, 2, 4, 3, 4, 5, 3, 4, 5, 1, 2, 3, 1, 2, 3);
+           // Yaz2(20, 2, 1, 3, 1, 2, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 3, 2, 3, 4, 4, 4, 5, 5, 1, 2, 3, 2, 1, 3, 1, 1, 2, 4, 3, 4, 5, 3, 4, 5, 1, 2, 3, 1, 2, 3);
             //Yaz3("test", "test2", "test3", "test4");
-            //string[] adlar = { "Metin", "Metin2", "Metin3" };
+            string[] adlar = { "Metin", "Metin2", "Metin3" };
             //DiziAl(adlar);//dizi alan bir methoddur sadece 1 dizi alır params görevi görmez.
-            //ParamsAl(adlar, adlar[0], adlar[1], adlar[2], "deneme", "test", "naber", "yakup");
+            ParamsAl(adlar, adlar[0], adlar[1], adlar[2], "deneme", "test", "naber", "yakup");
             ////Params yapısı sınırsız sayıda değer göndermemizi sağlar
             //Deger(213.1235, "Test", 'A', DateTime.Now, true, false, 10, 10.12m, adlar[1]);
 

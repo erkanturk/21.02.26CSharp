@@ -17,6 +17,7 @@
              * new keyword üretilen nesneyi temsil eder ve bellekte yer açar
             */
 
+
             #region Dizi yapısı 
             ////5 elemanlı 4 indexli bir dizi.
             ////index => 0,1,2,3,4
@@ -27,7 +28,7 @@
             //adlar[2] = "Can";
             //adlar[3] = "Aziza";
             //adlar[4] = "Gökçe";
-            ////adlar[5] = "Ali";//Hata verir:Sysyem.IndexOutOfRangeException: index aşımı hatası.
+            //adlar[5] = "Ali";//Hata verir:Sysyem.IndexOutOfRangeException: index aşımı hatası.
             //Console.WriteLine(adlar[1]);
             ////Console.WriteLine(adlar);//bu şekilde bana değerleri getirmez.
             //for (int i = 0; i < adlar.Length; i++)
@@ -58,7 +59,16 @@
             //sayilar[7] = 55;
             //sayilar[8] = 75;
             //sayilar[9] = 100;
-
+            //Console.WriteLine(sayilar[0]);
+            //Console.WriteLine(sayilar[1]);
+            //Console.WriteLine(sayilar[2]);
+            //Console.WriteLine(sayilar[3]);
+            //Console.WriteLine(sayilar[4]);
+            //Console.WriteLine(sayilar[5]);
+            //Console.WriteLine(sayilar[6]);
+            //Console.WriteLine(sayilar[7]);
+            //Console.WriteLine(sayilar[8]);
+            //Console.WriteLine(sayilar[9]);
             //for (int i = 0; i < sayilar.Length; i++)
             //{
             //    Console.WriteLine(sayilar[i]);
@@ -118,7 +128,7 @@
             ////{
             ////    Console.WriteLine(item);
             ////}
-            //Array.Clear(adlar, 1, 2);//Adlar dizisinin 1. indexinden başlayarak 2 elemanı sil
+            ////Array.Clear(adlar, 1, 2);//Adlar dizisinin 1. indexinden başlayarak 2 elemanı sil
             //foreach (string item in adlar)
             //{
             //    Console.WriteLine(item);
@@ -129,7 +139,7 @@
             //string[] adlar = { "Erkan", "Efe", "Can", "Aziza", "Gökçe", "Yunus" };
             //string[] adlar2 = new string[adlar.Length];//dolu olan dizinin uzunluğu kadar eleman barındırabilir.
 
-            //// Array.Copy(adlar, adlar2, 4);//6 elemandan 4 elemanı sadece kopyala dedim ve bu elemanları yeni bir diziye kopyaladı.
+            //Array.Copy(adlar, adlar2, 4);//6 elemandan 4 elemanı sadece kopyala dedim ve bu elemanları yeni bir diziye kopyaladı.
             //Array.Copy(adlar, 1, adlar2, 1, 4);//Adlar dizisinden 1. indexden başla ve adlar2 dizisine 2. indexden intibaren 3 eleman kopyala
             //foreach (string item in adlar2)
             //{
@@ -182,7 +192,7 @@
             #endregion
             #region Sort&&Reverse
             //string[] adlar = { "Erkan", "Efe", "Can", "Aziza", "Gökçe", "Yunus", "Efe", "Can", "Efe", "Ali" };
-            //int[] sayilar = { 99, 50, 25, 10, 1, 975, 44, 63, 22,33 };
+            //int[] sayilar = { 99, 50, 25, 10, 1, 975, 44, 63, 22, 33 };
             ////Array.Reverse(adlar);//Tersine çevir
             ////Array.Reverse(sayilar);//Tersine çevir
             //////Var olan yapıyı tersine çevirir.
@@ -222,7 +232,7 @@
             //Array.Resize(ref sayilar, sayilar.Length + 1);
             //Array.Resize(ref sayilar, sayilar.Length + 1);
             //Array.Resize(ref sayilar, sayilar.Length + 1);
-            
+
             //for (int i = 0; i < sayilar.Length; i++)
             //{
             //    Console.WriteLine(sayilar[i]);
