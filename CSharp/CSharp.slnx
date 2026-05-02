@@ -31,4 +31,7 @@
   <Project Path="21_Recursive_Method/21_Recursive_Method.csproj" Id="215abdf7-f3da-455a-ada3-71ed242d3935" />
   <Project Path="22_Math_Methods/22_Math_Methods.csproj" Id="9a5ca153-e07a-4218-88ce-aab1177e209c" />
   <Project Path="23_String_Methodlar/23_String_Methodlar.csproj" Id="fc270ddf-5011-45ef-9007-b5e06229e22a" />
+  <Project Path="24_ArrayList/24_ArrayList.csproj" Id="c89ca159-821e-4622-911f-f7b9a198ce24" />
+  <Project Path="25_Queue/25_Queue.csproj" Id="2298e645-8c5e-4e0b-8839-de6694f50991" />
+  <Project Path="26_Stack/26_Stack.csproj" Id="d20cbd34-3d5c-4241-aefd-387ceab4bfb0" />
 </Solution>
