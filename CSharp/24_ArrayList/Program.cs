@@ -174,44 +174,45 @@ namespace _24_ArrayList
             //ArrayDondur(liste);
             #endregion
 
-            #region 2048 Oyunu
-            ArrayList arrayList = new ArrayList();
-            while (true)
-            {
-                Console.WriteLine("Bir değer giriniz (Çıkış için exit yazınız)");
-                string giris = Console.ReadLine().ToLower();
-                if (giris=="exit")
-                {
-                    break;
-                }
-                if (int.TryParse(giris, out int sayi))
-                {
-                    while (arrayList.Contains(sayi))
-                    {
-                        arrayList.Remove(sayi);
-                        sayi = sayi * 2;
-                    }
-                    arrayList.Add(sayi);
-                }
-                else
-                {
-                    if (arrayList.Contains(giris))
-                    {
-                        Console.WriteLine($"'{giris}' metni listede zaten mevcut");
-                    }
-                    else
-                    {
-                        arrayList.Add(giris);
-                    }
-                }
-                Console.WriteLine("Güncel liste");
-                Console.Clear();
-                foreach (var item in arrayList)
-                {
-                    Console.WriteLine(item);
-                }
-            }
-            #endregion
+            //ArrayList liste = new ArrayList();
+
+            //while (true)
+            //{
+            //    Console.WriteLine("listeye eklemek istediğiniz değer");
+            //    string deger = Console.ReadLine();
+            //    if (int.TryParse(deger, out int sayi))
+            //    {
+            //        liste.Add(sayi);
+            //    }
+            //    else
+            //    {
+            //        liste.Add(deger);
+            //    }
+            //    Console.WriteLine("Eklenen");
+            //    foreach (var item in liste)
+            //    {
+            //        Console.WriteLine(item);
+            //    }
+            //    Console.WriteLine("Devam etmek ister misiniz? (E/H)");
+            //    string devam = Console.ReadLine().ToUpper();
+            //    if (devam == "E")
+            //    {
+            //        continue;
+            //    }
+            //    else if (devam == "H")
+            //    {
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Hatalı tuşlama ");
+            //        Thread.Sleep(10000);
+
+            //    }
+
+            //}
+            //Console.WriteLine("Dolu liste");
+            //ArrayDondur(liste);
 
 
         }

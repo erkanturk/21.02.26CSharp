@@ -34,4 +34,7 @@
   <Project Path="24_ArrayList/24_ArrayList.csproj" Id="c89ca159-821e-4622-911f-f7b9a198ce24" />
   <Project Path="25_Queue/25_Queue.csproj" Id="2298e645-8c5e-4e0b-8839-de6694f50991" />
   <Project Path="26_Stack/26_Stack.csproj" Id="d20cbd34-3d5c-4241-aefd-387ceab4bfb0" />
+  <Project Path="27_SortedList/27_SortedList.csproj" Id="cdbd8d9b-f7e6-4ec9-bde0-eabcf8e2448f" />
+  <Project Path="27_SortedList_2/27_SortedList_2.csproj" Id="6fb82585-57d5-4984-9544-1635131a61cb" />
+  <Project Path="28_HashTable/28_HashTable.csproj" Id="9aa364aa-8abe-45e7-85b7-5be1669b7a8f" />
 </Solution>
