@@ -37,4 +37,5 @@
   <Project Path="27_SortedList/27_SortedList.csproj" Id="cdbd8d9b-f7e6-4ec9-bde0-eabcf8e2448f" />
   <Project Path="27_SortedList_2/27_SortedList_2.csproj" Id="6fb82585-57d5-4984-9544-1635131a61cb" />
   <Project Path="28_HashTable/28_HashTable.csproj" Id="9aa364aa-8abe-45e7-85b7-5be1669b7a8f" />
+  <Project Path="29_ManavOtomasyon/29_ManavOtomasyon.csproj" Id="b13f76d8-5e2a-4536-b275-92106e688eec" />
 </Solution>
