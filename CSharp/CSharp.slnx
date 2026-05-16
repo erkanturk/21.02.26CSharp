@@ -40,4 +40,7 @@
   <Project Path="29_ManavOtomasyon/29_ManavOtomasyon.csproj" Id="b13f76d8-5e2a-4536-b275-92106e688eec" />
   <Project Path="30_List/30_List.csproj" Id="2a579a92-2650-47f6-a6dc-96427290c99c" />
   <Project Path="30_List_2/30_List_2.csproj" Id="1f0c268e-3d61-4d93-9206-5bfbf58a3589" />
+  <Project Path="31_OdevCozumLinq/31_OdevCozumLinq.csproj" Id="daba5b5f-12bb-4f53-b630-9ee117db8428" />
+  <Project Path="32_Class_Object/32_Class_Object.csproj" Id="dd150306-bfbe-419d-9c16-d7685e0a4098" />
+  <Project Path="32_Class_Object_2/32_Class_Object_2.csproj" Id="e3669eb2-b277-4580-a067-e31efa1eb648" />
 </Solution>
