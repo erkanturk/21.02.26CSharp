@@ -11,6 +11,13 @@ namespace _32_Class_Object_2
         public string Model { get; set; }
         public double Fiyat { get; set; }
 
+        public void Test(string Marka, string Model, double Fiyat)
+        {
+            this.Marka = Marka;
+            this.Model = Model;
+            this.Fiyat = Fiyat;
+
+        }
         public void Kaydet(List<Araba> arabalar)
         {
             Console.WriteLine("Marka:");
