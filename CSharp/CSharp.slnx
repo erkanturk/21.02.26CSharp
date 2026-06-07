@@ -49,4 +49,10 @@
   <Project Path="34_Constructor/34_Constructor.csproj" Id="8356e834-c450-493b-b9f7-f263097a5125" />
   <Project Path="34_Constructor_2/34_Constructor_2.csproj" Id="4c06d845-8ad5-49c9-879c-82db9bf06849" />
   <Project Path="35_RestorantOtomasyon/35_RestorantOtomasyon.csproj" Id="45a19ac0-e5df-436b-becb-997965c5166b" />
+  <Project Path="36_OOP_Encapsulation/36_OOP_Encapsulation.csproj" Id="b281532e-159d-4a77-a877-4ffbdb9a7e59" />
+  <Project Path="36_OOP_Encapsulation_2/36_OOP_Encapsulation_2.csproj" Id="9c99644c-53bf-46c0-b40f-75bd5e952164" />
+  <Project Path="37_OOP_Inheritance/37_OOP_Inheritance.csproj" Id="561aa614-ad0e-43ee-8461-a946d9ecf63c" />
+  <Project Path="37_OOP_Inheritance_2/37_OOP_Inheritance_2.csproj" Id="566c7cd8-ddca-4776-ac52-f95df2ae1ff3" />
+  <Project Path="37_OOP_Inheritance_3/37_OOP_Inheritance_3.csproj" Id="6c9c3150-845c-4cc5-86f5-4ee9804334d8" />
+  <Project Path="38_OOP_Partial_Class/38_OOP_Partial_Class.csproj" Id="f9b53316-6691-4133-a91c-cf02170c25a5" />
 </Solution>
