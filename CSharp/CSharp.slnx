@@ -55,4 +55,11 @@
   <Project Path="37_OOP_Inheritance_2/37_OOP_Inheritance_2.csproj" Id="566c7cd8-ddca-4776-ac52-f95df2ae1ff3" />
   <Project Path="37_OOP_Inheritance_3/37_OOP_Inheritance_3.csproj" Id="6c9c3150-845c-4cc5-86f5-4ee9804334d8" />
   <Project Path="38_OOP_Partial_Class/38_OOP_Partial_Class.csproj" Id="f9b53316-6691-4133-a91c-cf02170c25a5" />
+  <Project Path="39_Encapsulation_OdevCozum/39_Encapsulation_OdevCozum.csproj" Id="2666f7a5-0232-4d0b-ba15-36d6f155b6ac" />
+  <Project Path="40_OOP_Polymorphism/40_OOP_Polymorphism.csproj" Id="243631f9-311b-406c-a303-af4189481e17" />
+  <Project Path="40_OOP_Polymorphism_2/40_OOP_Polymorphism_2.csproj" Id="7a6d72b7-f697-45d8-b0f2-4ca2dca28f42" />
+  <Project Path="40_OOP_Polymorphism_3/40_OOP_Polymorphism_3.csproj" Id="9d1c6397-fc16-49bc-b670-377a547b1116" />
+  <Project Path="41_OOP_Abstraction/41_OOP_Abstraction.csproj" Id="6e55662e-9176-4e06-9f38-f6bde1a76db3" />
+  <Project Path="41_OOP_Abstraction_2/41_OOP_Abstraction_2.csproj" Id="9c919dfd-0526-4324-a306-e768c9501a8e" />
+  <Project Path="41_OOP_Abstraction_3/41_OOP_Abstraction_3.csproj" Id="b96411f7-92ef-4b11-b944-9b41f6866c12" />
 </Solution>
